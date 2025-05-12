@@ -2,9 +2,12 @@ package com.jspider.hibernate_simple_crud_operation.entity;
 
 import java.time.LocalDate;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
+
 @Data
+@Entity
 public class Laptop {
 	@Id
 	private int id;
